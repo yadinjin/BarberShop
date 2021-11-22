@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BarberShop</string>
+    <string name="change_service">Выберите услугу:</string>
+    <string name="mens_haircut">Мужская стрижка</string>
+    <string name="womens_haircut">Женская стрижка</string>
+    <string name="share_button">Поделиться</string>
+    <string name="about_text_view">
+        Всем привет! Меня зовут Денис. \n
+        Я изучаю язык программирования Kotlin. \n
+        Это приложение - попытка создать \n
+        для моих друзей-парикмахеров \n
+        приложение для on-line записи клиентов.
+    </string>
+
+    <string name="description_switch">Активировать / Деактивировать кнопку \'Поделиться\'</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_date_and_time_for_registration_this_barber_button">Выбрать дату и время для записи к этому барберу</string>
+    <string name="select_date_bottom_menu_button">Дата</string>
+    <string name="select_time_bottom_menu_button">Время</string>
+    <string name="select_data_and_time">Выберите дату и время</string>
+    <string name="menu">Меню</string>
+    <string name="about">Обо мне</string>
+    <string name="about_button">Автор ПО</string>
+    <string name="to_back">Назад</string>
+
+
+
+</resources>
