@@ -1,56 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+<TextView
+    android:id="@+id/change_service_textview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    android:textSize="25sp"
+    android:textStyle="bold"
+    android:text="@string/change_service"/>
+<GridLayout
+    android:id="@+id/man_grid_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="2">
 
+    <ImageButton
+        android:id="@+id/man_haircut_image_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/man_haircut"
+        android:scaleType="centerInside"
+        android:src="@drawable/man_icon"
+        android:backgroundTint="@color/white"/>
+    <Button
+        android:id="@+id/man_haircut_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/man_haircut" />
 
+</GridLayout>
+    <GridLayout
+        android:id="@+id/woman_grid_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerInParent="true"
-        android:gravity="center"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/change_service_textview"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:text="@string/change_service"
-            android:textSize="25sp"
-            android:textStyle="bold" />
-
+    <ImageButton
+        android:id="@+id/woman_haircut_image_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/woman_haircut"
+        android:scaleType="centerInside"
+        android:src="@drawable/woman_icon"
+        android:backgroundTint="@color/white"/>
         <Button
-            android:id="@+id/mens_haircut_button"
-            android:layout_width="wrap_content"
+            android:id="@+id/woman_haircut_button"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:text="@string/mens_haircut" />
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/woman_haircut" />
+    </GridLayout>
+    <GridLayout
+        android:id="@+id/share_grid_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2">
 
-        <Button
-            android:id="@+id/womens_haircut_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:text="@string/womens_haircut" />
+    <ImageButton
+        android:id="@+id/share_image_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/share_button"
+        android:scaleType="centerInside"
+        android:src="@drawable/share_icon"
+        android:backgroundTint="@color/white"/>
 
         <Button
             android:id="@+id/share_button"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
+            android:layout_gravity="center"
             android:text="@string/share_button" />
+    </GridLayout>
+    <GridLayout
+        android:id="@+id/about_grid_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2">
 
+    <ImageButton
+        android:id="@+id/about_image_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/share_button"
+        android:scaleType="centerInside"
+        android:src="@drawable/about_icon"
+        android:backgroundTint="@color/white"/>
         <Button
             android:id="@+id/about_button"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
+            android:layout_gravity="center"
             android:text="@string/about_button"
             style="@style/MyStyleButton"/>
-
-    </LinearLayout>
-</RelativeLayout>
+    </GridLayout>
+</LinearLayout>

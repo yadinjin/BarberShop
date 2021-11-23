@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">BarberShop</string>
     <string name="change_service">Выберите услугу:</string>
-    <string name="mens_haircut">Мужская стрижка</string>
-    <string name="womens_haircut">Женская стрижка</string>
+    <string name="man_haircut">Мужская стрижка</string>
+    <string name="woman_haircut">Женская стрижка</string>
     <string name="share_button">Поделиться</string>
     <string name="about_text_view">
         Всем привет! Меня зовут Денис. \n

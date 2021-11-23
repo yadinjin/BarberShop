@@ -3,11 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/about_icon.xml" value="0.15052083333333333" />
         <entry key="app/src/main/res/drawable/man.xml" value="0.15052083333333333" />
+        <entry key="app/src/main/res/drawable/man_icon.xml" value="0.2733333333333333" />
+        <entry key="app/src/main/res/drawable/menu_icon.xml" value="0.2733333333333333" />
         <entry key="app/src/main/res/drawable/select_date_bottom_menu_button_icon.xml" value="0.2733333333333333" />
         <entry key="app/src/main/res/drawable/select_time_bottom_menu_button_icon.xml" value="0.2733333333333333" />
+        <entry key="app/src/main/res/drawable/share_icon.xml" value="0.2733333333333333" />
+        <entry key="app/src/main/res/drawable/woman_icon.xml" value="0.2733333333333333" />
         <entry key="app/src/main/res/layout/activity_about_and_share.xml" value="0.24592391304347827" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_select_barber.xml" value="0.26145833333333335" />
         <entry key="app/src/main/res/layout/activity_select_date_and_time_for_registration_this_barber.xml" value="0.254981884057971" />
         <entry key="app/src/main/res/layout/activity_select_date_time_activity.xml" value="0.26145833333333335" />
